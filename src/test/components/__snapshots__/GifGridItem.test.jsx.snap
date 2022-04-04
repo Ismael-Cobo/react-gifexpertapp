@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas unitarias en <GifCard /> debe mostrar el componente correctamnete 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card__img"
+  >
+    <img
+      alt="Hola que tal?"
+      src="https://localhost/img.jpg"
+    />
+  </div>
+  <p>
+    Hola que tal?
+  </p>
+</div>
+`;

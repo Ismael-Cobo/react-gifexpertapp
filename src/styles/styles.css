@@ -1,0 +1,95 @@
+:root {
+    --fuentePrincipal: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+    margin: 2rem 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4.6rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+[class$="__contenedor"] {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 80%;
+    padding: 5rem 0;
+}
+
+.gif__titulo {
+    text-align: center;
+}
+
+.gif__añadir_categoria input {
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.gif__ol {
+    padding: 0;
+}
+
+.card-grid{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr));
+}
+
+.card{
+    align-content: center;
+    border: 1px solid grey;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.card p {
+    padding: 5px;
+    text-align: center;
+}
+
+.card__img{
+    height: 20rem;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
